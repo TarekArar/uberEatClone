@@ -4,18 +4,5 @@ import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import Home from "./screens/Home";
 
 export default function App() {
-  return (
-    <SafeAreaView style={styles.container}>
-      <Home />
-    </SafeAreaView>
-  );
+  return <Home />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    // justifyContent: "center",
-  },
-});
