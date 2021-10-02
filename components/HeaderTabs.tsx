@@ -1,13 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import {
-  View,
-  Text,
-  Button,
-  StyleSheet,
-  SafeAreaView,
-  TouchableOpacity,
-} from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 export default function HeaderTabs() {
   const tabs = [{ title: "Delivery" }, { title: "Pickup" }];
@@ -50,7 +43,6 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     alignSelf: "center",
-    padding: 10,
   },
   headerButton: {
     paddingVertical: 6,
